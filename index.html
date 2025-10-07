@@ -1,1 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
 
+    <style>
+
+        
+
+    </style>
+</head>
+
+<body style="background-color: lightseagreen;">
+    <h1 style="text-align: center;">Mi primer Formulario</h1>
+
+    <br>
+
+    <form action="">
+        <label for="nombre">Nombre (s)</label>
+        <input type="text" name="nombre" id="campo-nombre" style="background-color: lightgreen;">
+
+        <br>
+
+        <label for="Apellido">Apellidos</label>
+        <input type="text" name="Apellidos" id="campo-apellidos" style="background-color: lightgreen;">
+
+        <br>
+
+        <label for="correo electronico">Correo electronico</label>
+        <input type="email" name="correo electronico" id="campo-correo" style="background-color: lightgreen;">
+
+        <br>
+
+        <label for="numero de telefono">Numero de telefono</label>
+        <input type="tel" name="numero de telefono" id="capo-telefono" style="background-color: lightgreen;">
+
+        <br>
+
+        <!--Button y el submit es lo mismo-->
+    </form>
+
+    <br>
+    <br>
+    
+    <label for="fecha">Fecha de creacion</label>
+    <input type="datetime" name="fecha de creacion" id="campo-fecha" style="background-color: lightgreen;">
+
+    <br>
+    <br>
+
+    <form action="">
+        <label for="calle">Calle</label>
+        <input type="text" name="calle" id="campo-calle" style="background-color: lightgreen;">
+
+        <br>
+
+        <label for="colonia">Colonia</label>
+        <input type="text" name="colonia" id="campo-colonia" style="background-color: lightgreen;">
+
+        <br>
+    </form>
+
+    <br>
+
+    <b>INPUTS faltantes:</b>
+
+    <br>
+
+    <b>1-Marcar la casilla con el deporte que más te gusta:</b>
+
+    <br>
+
+    <form action="">
+        <label for="Verificar casilla">Futbol</label>
+        <input type="checkbox" name="Verificar casilla" id="campo-verificar casilla">
+    </form>
+
+    <br>
+
+    <form action="">
+        <label for="Verificar casilla">Basquetbol</label>
+        <input type="checkbox" name="Verificar casilla" id="campo-verificar casilla">
+    </form>
+
+    <br>
+
+    <form action="">
+        <label for="Verificar casilla">Futbol americano</label>
+        <input type="checkbox" name="Verificar casilla" id="campo-verificar casilla">
+    </form>
+
+    <br>
+
+    <b>2-Esocge tu color favorito:</b>
+    <form action="">
+        <label for="color">Color</label>
+        <input type="color" name="Color" id="campo-color">
+    </form>
+
+     <br>
+
+     <b>3-Pon la fecha del dia de hoy</b>
+
+     <br>
+
+    <form action="">
+        <label for="fecha">Fecha actual</label>
+        <input type="date" name="Fechas" id="campo-fecha" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+    <b>4-Pon fecha y hora local:</b>
+
+    <br>
+
+    <form action="">
+        <label for="fecha local">Fecha local</label>
+        <input type="datetime-local" name="Fecha local" id="campo-fecha local" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+    <b>5-Sube tu archivo correspondiente:</b>
+
+    <br>
+
+    <form action="">
+        <label for="Archivo">Subir archivo</label>
+        <input type="file" name="Archivo" id="campo-archivo" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+     <b>6-</b>
+
+     <br>
+
+    <form action="">
+        <label for="datos ocultos">Datos ocultos</label>
+        <input type="hidden" name="Datos ocultos" id="campo-datos ocultos" value="Patricio"> 
+    </form>
+
+     <br>
+
+     <b>7-Sube imagen de tu deportista favorito:</b>
+
+     <br>
+
+    <form action="">
+        <label for="imagen">Imagen</label>
+        <input type="image" name="Imagen" id="campo-imagen" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+     <b>8-Selecciona mes y año de tu nacimiento:</b>
+
+     <br>
+
+    <form action="">
+        <label for="mes">Mes y año</label>
+        <input type="month" name="mes" id="campo-mes y año" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+    <b>9- Pon tu numero favorito:</b>
+
+    <br>
+
+    <form action="">
+        <label for="numero">Número</label>
+        <input type="number" name="numero" id="campo-numero" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+     <b>10-Escribe tu contraseña privada:</b>
+
+     <br>
+
+    <form action="">
+        <label for="contraseña">Contraseña</label>
+        <input type="password" name="Contraseña" id="campo-contraseña" style="background-color: lightgreen;"> 
+    </form>
+
+     <br>
+
+     <b>11- Selecciona las horas que haces ejercicio al dia:</b>
+
+     <br>
+
+    <form action="">
+        <label for="radio">1</label>
+        <input type="radio" name="Radio" id="campo-radio">
+    </form>
+
+    <br>
+
+     <form action="">
+        <label for="radio">2</label>
+        <input type="radio" name="Radio" id="campo-radio">
+    </form>
+
+    <br>
+
+     <form action="">
+        <label for="radio">3 o mas</label>
+        <input type="radio" name="Radio" id="campo-radio">
+    </form>
+
+     <br>
+
+     <b>12- Marca que tanto te gusta hace ejercicio:</b>
+
+     <br>
+
+    <form action="">
+        <label for="range">Rango</label>
+        <input type="range" name="Range" id="campo-range">
+    </form>
+
+     <br>
+
+     <b>13-Resetear formulario en caso de ser necesario:</b>
+
+     <br>
+
+    <form action="">
+        <label for="reset">Resetear</label>
+        <input type="reset" name="reset" id="campo-reset" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+     <b>14-Busca un deportista famoso de otro deporte que te guste:</b>
+
+     <br>
+
+    <form action="">
+        <label for="buscar">Buscar</label>
+        <input type="search" name="buscar" id="campo-buscar" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+     <b>15-Hora que estas contestando este formulario:</b>
+
+     <br>
+
+    <form action="">
+        <label for="hora">Hora</label>
+        <input type="time" name="hora" id="campo-hora" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+     <b>16-Coloca el link de un video de youtube acerca de tu deporte favorito:</b>
+
+     <br>
+
+    <form action="">
+        <label for="url">Link/URl</label>
+        <input type="url" name="url" id="campo-url" style="background-color: lightgreen;">
+    </form>
+
+     <br>
+
+     <b>17-Semana y año que empezaste a practicar deporte:</b>
+
+     <br>
+
+    <form action="">
+        <label for="semana">Semana y Año</label>
+        <input type="week" name="semana" id="campo-semana" style="background-color: lightgreen;">
+    </form>
+</body>
+</html>
